@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="trangDangNhap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Thông tin cá nhân</h2>
+        </div>
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Họ và tên</label>
+                <input type="text" placeholder="Trần Việt Hoàng" id="hoTen" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="usename">Ngày sinh</label>
+                <input type="date" placeholder="04/03/2003" id="ngaySinh" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Căn cước công dân</label>
+                <input type="number" placeholder="CCCD" id="CCCD"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <div class="form-control">
+                <label for="username">Địa chỉ thưởng trú</label>
+                <input type="text" placeholder="Hoàng Mai" id="diaChi"/>
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Error message</small>
+            </div>
+            <button id="nextIndex">Submit</button>
+        </form>
+    </div>
+    <script src="trangDangNhap.js"></script>
+</body>
+</html>
